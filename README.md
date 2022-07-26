@@ -25,4 +25,6 @@ TEST ORTAMI:
 
 
 OZET:
-Client, kendisine verilen auth code ve link ile, ontanimli parametreler girerek, veri dosyasi olusturur.
+Client, kendisine verilen auth code ve link ile, ontanimli parametreler girerek ya da girmeden default degerler ile, veri dosyasini, generated_files altinda, client adi ve auth kodu kombinasyonu ile otomatik olarak olusturulan klasor altinda yaratir.
+
+Bir diger secenek de, sunucu tarafinda, index dosyasini belli periyotlarda bir cronjob olarak calistirip, client'e sadece dosyayi indirme linki verilir. Bu yontem, sunucu uzerindeki yuku hafifletecektir.
